@@ -1,4 +1,5 @@
 mod day1;
+mod day2;
 mod util;
 
 use std::time::Instant;
@@ -8,6 +9,8 @@ fn main() {
 
     print_one("day1::part1", day1::part1);
     print_one("day1::part2", day1::part2);
+    print_one("day2::part1", day2::part1);
+    print_one("day2::part2", day2::part2);
     println!("Total elapsed time: {:?}", Instant::elapsed(&start));
 }
 
